@@ -264,9 +264,9 @@ def textconver():
             s3 = boto3.resource(
                 's3',
                 
-                aws_access_key_id='AKIA6LMBN6TN3ZLUMZNC',
-                aws_secret_access_key='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',
-                region_name="us-east-2",
+                aws_access_key_id='access key',
+                aws_secret_access_key='secret key',
+                region_name="region",
                 
             )
 
@@ -283,10 +283,10 @@ def textconver():
                     
             s3 = boto3.resource( 
                 "s3",
-                aws_access_key_id='AKIA6LMBN6TN3ZLUMZNC', 
-                aws_secret_access_key='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',
-                region_name="us-east-2",)
-            url='https://newup1319.s3.us-east-2.amazonaws.com/'+c
+                aws_access_key_id='access key', 
+                aws_secret_access_key='secret key',
+                region_name="region",)
+            url='https:/bucket_name.s3.region_name.amazonaws.com/'+c
             # print(url)
             #Then use the session to get the resource
             
