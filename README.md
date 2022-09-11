@@ -4,4 +4,11 @@ URL of pdf to the user's gmail Id
 
 #Installation
   
-    git clone
+    git clone https://github.com/ashirvadpandey/Audio_To_Text.git
+Modules
+    
+    pip install speech_recognition
+    pip install pyaudio
+    pip install wave
+    pip insall boto3 
+    pip install smtplib
