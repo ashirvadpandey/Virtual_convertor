@@ -8,7 +8,7 @@ URL of pdf to the user's gmail Id
 
 Installation
   
-    git clone https://github.com/ashirvadpandey/Audio_To_Text.git
+    git clone https://github.com/ashirvadpandey/virtual_convertor.git
 Modules
     
     pip install speech_recognition
