@@ -631,8 +631,7 @@ def textconver():
         #             url='https://sih-bugaches.s3. us-east-1.amazonaws.com/'+c
                         
                 except Exception as e: 
-                    print(e)
-                    
+                
                     engine.say(e)
                     Output.insert(END, 'Unable to upload file')
                     engine.say('Unable to upload file')
@@ -642,7 +641,7 @@ def textconver():
                 # ======================SEND MAIL===========================
                 import smtplib
                 try:
-                    emailpassword = ' Pandey@2389 '
+                    emailpassword = '  ' #passwordof your gmail
                     emailsend = ' 2002389.cse.cec@cgc.edu.in '  # Space should be before and after the ''
                     print("Login Of email")
                     if (1):
